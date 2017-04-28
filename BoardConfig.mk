@@ -130,7 +130,7 @@ TARGET_POWERHAL_VARIANT := qcom
 
 # Recovery
 TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_cm
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.qcom
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/twrp.fstab
 
 # RIL
 TARGET_RIL_VARIANT := caf
@@ -149,8 +149,8 @@ BOARD_SUPPRESS_SECURE_ERASE := true
 RECOVERY_SDCARD_ON_DATA := true
 TW_DEFAULT_EXTERNAL_STORAGE := true
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
-TW_THEME := portrait_hdpi
 TW_INCLUDE_CRYPTO := true
+TW_THEME := portrait_hdpi
 
 # TWRP - CRYPTO
 TARGET_HW_DISK_ENCRYPTION := true

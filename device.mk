@@ -141,6 +141,7 @@ PRODUCT_PACKAGES += \
     init.qcom.bt.sh \
     init.qcom.power.rc \
     init.qcom.usb.rc \
+    twrp.fstab \
     ueventd.qcom.rc
 
 # IPv6
