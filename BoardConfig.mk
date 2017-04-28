@@ -161,7 +161,7 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 
 # Vendor Symlink
 BOARD_NEEDS_VENDORIMAGE_SYMLINK := true
-
+TARGET_COPY_OUT_VENDOR := system
 
 # Wlan
 BOARD_HAS_QCOM_WLAN := true

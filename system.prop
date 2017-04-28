@@ -123,9 +123,10 @@ persist.rild.nitz_short_ons_2=
 persist.rild.nitz_short_ons_3=
 
 # OEM props for device info
-import /oem/oem.prop ro.product.model
+ro.product.model=GM 5 Plus
 import /oem/oem.prop persist.radio.multisim.config
 ro.product.model.platform=1
+ro.product.device=shamrock 
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
