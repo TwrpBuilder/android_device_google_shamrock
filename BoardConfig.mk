@@ -155,7 +155,6 @@ TW_THEME := portrait_hdpi
 
 # TWRP - CRYPTO
 TARGET_HW_DISK_ENCRYPTION := true
-TARGET_CRYPTFS_HW_PATH := $(DEVICE_PATH)/cryptfs_hw
 
 # TWRP - Remove mouse pointer
 TW_INPUT_BLACKLIST := "hbtp_vm"
